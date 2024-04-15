@@ -45,9 +45,9 @@ class _ShoppingCartHeaderState extends State<ShoppingCartHeader> {
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
         _buildHeaderSelectorButton(0, Icons.directions_bike),
-        _buildHeaderSelectorButton(0, Icons.motorcycle),
-        _buildHeaderSelectorButton(0, CupertinoIcons.car_detailed),
-        _buildHeaderSelectorButton(0, CupertinoIcons.airplane),
+        _buildHeaderSelectorButton(1, Icons.motorcycle),
+        _buildHeaderSelectorButton(2, CupertinoIcons.car_detailed),
+        _buildHeaderSelectorButton(3, CupertinoIcons.airplane),
       ],
     ),
     );
